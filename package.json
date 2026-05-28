@@ -1,0 +1,7 @@
+{
+  "name": "wordpress-member-journey-consent-kit",
+  "version": "0.1.0",
+  "private": true,
+  "description": "WordPress control plane for member onboarding, lifecycle consent capture, preference evidence, and release-safe audience journey posture.",
+  "license": "AGPL-3.0-or-later"
+}
