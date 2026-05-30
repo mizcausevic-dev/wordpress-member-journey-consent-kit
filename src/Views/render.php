@@ -208,6 +208,7 @@ function shell(string $active, string $title, string $eyebrow, string $hero, str
     <footer>
       <div>wordpress-member-journey-consent-kit · AGPL-3.0-or-later · synthetic demonstration data only</div>
       <div>Routes: / · /member-lane · /consent-evidence · /verification · /docs</div>
+      <div><a href="https://github.com/mizcausevic-dev/">GitHub</a> · <a href="https://www.linkedin.com/in/mirzacausevic/">LinkedIn</a> · <a href="https://kineticgain.com/">Kinetic Gain</a></div>
     </footer>
   </div>
 </body>
