@@ -12,6 +12,29 @@ WordPress control plane for member onboarding, lifecycle consent capture, prefer
 
 This repo demonstrates the member-consent primitive for Kinetic Gain Embedded: reviewed opt-in language, preference evidence, suppression-safe export posture, and lifecycle approval gates exposed through one operator surface. In a real embedded setting, the same primitive lets media, SaaS, community, and subscription teams keep acquisition, onboarding, retention, and consent records aligned without shipping lifecycle changes blindly.
 
+## Product depth
+
+This surface is meant for subscription, media, SaaS, community, and membership operators who need first-party growth without losing consent discipline. It shows which journeys are launch-safe, which preference anchors are stale, which exports are blocking release, and which owner has to fix the next member-facing promise.
+
+For technical reviewers, the public proof is reproducible. The same PHP service feeds local routes, API payloads, the WordPress shortcode/REST primitive, prerendered static pages, screenshots, and smoke checks.
+
+For GTM and diligence use, the repo can ladder into consent-safe lifecycle audits, member journey cleanup packets, WordPress plugin consulting, preference-center governance, and embedded first-party growth operations.
+
+## What these repos have in common
+
+Kinetic Gain repos use the same operating pattern: name the risk, attach an owner-readable evidence view, expose the next action, and keep public proof close enough to implementation that the claim can be inspected.
+
+This repo applies that pattern to WordPress member journeys and lifecycle consent. The broader portfolio applies it to claims, donor cohorts, yield forecasting, payments, KYC, grants, CAPA, diagnostics, care variation, cloud, identity, and revenue systems, but the product shape is consistent: turn messy operating complexity into a board-ready and operator-usable control plane.
+
+## Operating workflow
+
+1. Model member journeys, consent packages, owners, risks, and evidence anchors.
+2. Separate healthy, watch, and blocked lifecycle lanes.
+3. Tie each journey to a consent artifact, suppression/export posture, and next action.
+4. Expose the same source through local PHP routes, API responses, and WordPress primitives.
+5. Prerender the public static surface for GitHub Pages.
+6. Validate with PHP linting, demo output, static prerender, smoke checks, and screenshot rendering.
+
 ## Routes
 
 - `/`

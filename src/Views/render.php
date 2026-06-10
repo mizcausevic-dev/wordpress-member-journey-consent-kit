@@ -207,8 +207,8 @@ function shell(string $active, string $title, string $eyebrow, string $hero, str
     {$body}
     <footer>
       <div>wordpress-member-journey-consent-kit · AGPL-3.0-or-later · synthetic demonstration data only</div>
-      <div>Routes: / · /member-lane · /consent-evidence · /verification · /docs</div>
-      <div><a href="https://github.com/mizcausevic-dev/">GitHub</a> · <a href="https://www.linkedin.com/in/mirzacausevic/">LinkedIn</a> · <a href="https://kineticgain.com/">Kinetic Gain</a></div>
+      <div><a href="https://members.kineticgain.com/">members.kineticgain.com</a> · Routes: / · /member-lane · /consent-evidence · /verification · /docs</div>
+      <div><a href="https://portfolio.kineticgain.com/">Portfolio</a> · <a href="https://suite.kineticgain.com/">Suite</a> · <a href="https://github.com/mizcausevic-dev/wordpress-member-journey-consent-kit">Repo</a> · <a href="https://www.linkedin.com/in/mirzacausevic/">LinkedIn</a> · <a href="https://kineticgain.com/">Kinetic Gain</a></div>
     </footer>
   </div>
 </body>
@@ -294,6 +294,48 @@ HTML;
 <section class="section">
   <div class="sh"><h2>Overview</h2><div class="note">where member trust drifts first</div></div>
   <div class="board">{$cards}</div>
+</section>
+<section class="section">
+  <div class="sh"><h2>Product depth</h2><div class="note">SaaS value architecture and GTM posture</div></div>
+  <div class="board">
+    <article class="pcard">
+      <div class="ptop"><div class="pnum">01</div><div class="ppri">Buyer value</div></div>
+      <h3>First-party growth without consent drift.</h3>
+      <p class="pdesc">Subscription, media, SaaS, community, and membership teams can see which journeys are launch-safe, which preference anchors are stale, and which exports are blocking release.</p>
+      <ul class="check">
+        <li>Make member-facing promises inspectable before lifecycle teams send.</li>
+        <li>Expose stale consent anchors before support or RevOps discovers the mismatch later.</li>
+      </ul>
+    </article>
+    <article class="pcard">
+      <div class="ptop"><div class="pnum">02</div><div class="ppri">Technical proof</div></div>
+      <h3>One PHP service feeds site, API, and plugin primitives.</h3>
+      <p class="pdesc">The same source model powers local routes, API payloads, the WordPress shortcode/REST primitive, prerendered static pages, screenshots, and smoke checks.</p>
+      <ul class="check">
+        <li>Keep the public proof close to the WordPress implementation path.</li>
+        <li>Prerender a fast static surface without losing plugin-level evidence.</li>
+      </ul>
+    </article>
+    <article class="pcard">
+      <div class="ptop"><div class="pnum">03</div><div class="ppri">Commercial motion</div></div>
+      <h3>From control plane to consent-safe lifecycle work.</h3>
+      <p class="pdesc">This can ladder into lifecycle audits, member journey cleanup packets, WordPress plugin consulting, preference-center governance, and embedded first-party growth operations.</p>
+      <ul class="check">
+        <li>Useful to non-technical buyers reviewing trust and growth risk.</li>
+        <li>Specific enough for technical reviewers to inspect the implementation shape.</li>
+      </ul>
+    </article>
+    <article class="pcard">
+      <div class="ptop"><div class="pnum">KG</div><div class="ppri">Common pattern</div></div>
+      <h3>What these repos have in common.</h3>
+      <p class="pdesc">Kinetic Gain repos name the risk, attach an owner-readable evidence view, expose the next action, and keep public proof close enough to implementation that the claim can be inspected.</p>
+      <ul class="check">
+        <li>Risk: consent, suppression, export, and member-promise drift.</li>
+        <li>Proof: routes, API payloads, plugin primitive, screenshots, and validation scripts ship together.</li>
+        <li>Action: every journey has a launch posture, owner, and next fix.</li>
+      </ul>
+    </article>
+  </div>
 </section>
 HTML;
 
